@@ -1,0 +1,24 @@
+{
+    "name": "omakazit/m2-disable-customer",
+    "description": "Disable customer account from admin",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Omakazit",
+            "email": "team@omakazit.com"
+        }
+    ],
+    "require": {
+        "magento/module-customer": "*",
+        "omakazit/m2-base": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Omakazit\\DisableCustomer\\": ""
+        }
+    }
+}

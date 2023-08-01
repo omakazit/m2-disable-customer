@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <disable_customer>
+            <general>
+                <enabled>1</enabled>
+                <debug>0</debug>
+            </general>
+            <customer_disable_account>
+                <enabled>1</enabled>
+                <error_message>Your account is disabled. Please contact customer service.</error_message>
+            </customer_disable_account>
+            <customer_account_registration>
+                <enabled>1</enabled>
+            </customer_account_registration>
+        </disable_customer>
+    </default>
+</config>
